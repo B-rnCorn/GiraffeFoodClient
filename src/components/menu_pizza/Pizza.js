@@ -12,7 +12,7 @@ class Pizza extends Component {
     }
 
     componentDidMount() {
-        fetch('https://giraffe-food-server-js.herokuapp.com/')
+        fetch('https://giraffe-food-server-js.herokuapp.com/api/products')
             .then(res => res.json())
             .then(
                 (result) => {
