@@ -13,7 +13,7 @@ class Rolls extends Component {
     }
 
     componentDidMount() {
-        fetch('api/products')
+        fetch('https://giraffe-food-server-js.herokuapp.com/api/products')
             .then(res => res.json())
             .then(
                 (result) => {

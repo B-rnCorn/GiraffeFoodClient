@@ -26,7 +26,7 @@ class Review extends Component {
             text:this.state.text
         }
         console.log(JSON.stringify(data));
-        fetch('/api/reviews',{
+        fetch('https://giraffe-food-server-js.herokuapp.com/api/reviews',{
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
@@ -121,7 +121,7 @@ class Review extends Component {
     }
 
     componentDidMount() {
-        fetch('api/reviews')
+        fetch('https://giraffe-food-server-js.herokuapp.com/api/reviews')
             .then(res => res.json())
             .then(
                 (result) => {
