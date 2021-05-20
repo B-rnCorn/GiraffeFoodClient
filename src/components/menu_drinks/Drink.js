@@ -13,7 +13,7 @@ class Drink extends Component {
     }
 
     componentDidMount() {
-        fetch('https://giraffe-food-server-js.herokuapp.com/api/products')
+        fetch('api/products')
             .then(res => res.json())
             .then(
                 (result) => {
