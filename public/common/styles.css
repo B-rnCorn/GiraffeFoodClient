@@ -1001,8 +1001,8 @@ section {
 .btn-primaryc:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: #1F8330; z-index: -2; -webkit-transition: all .1s ease-in;
         transition: all .1s .1s ease-in; }
 
-.btn-primaryc:before { content: ''; position: absolute; bottom: 3px; left: 0; right: 0; height: 2px; background: #FFFFFF; z-index: -1;
-        -webkit-transition: all .1s  .2s ease-in; transition: all .1s  ease-in; }
+/*.btn-primaryc:before { content: ''; position: absolute; bottom: 3px; left: 0; right: 0; height: 2px; background: #FFFFFF; z-index: -1;*/
+/*        -webkit-transition: all .1s  .2s ease-in; transition: all .1s  ease-in; }*/
 
 .btn-primaryc:hover { color: #111 }
 
@@ -1018,7 +1018,7 @@ section {
 
 .btn-fill-primary.secondary {  height: 55px; line-height: 53px; border: 1px solid #1F8330; background: #1F8330; }
 
-.btn-fill-primary:hover { background: none; color: #EF0031; }
+/*.btn-fill-primary:hover { background: none; color: #EF0031; }*/
 .btn-fill-primary.secondary:hover { background: none; color: #1F8330; }
 
 .btn-fill-grey { text-align: center; height: 45px; line-height: 43px; border: 1px solid #ccc; background: #ccc; border-radius: 2px; color: #111; }

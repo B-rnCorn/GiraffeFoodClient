@@ -41,7 +41,7 @@ class Review extends Component {
     }
 
     render() {
-        const {error, isLoaded, reviews} = this.state;
+        let {error, isLoaded, reviews} = this.state;
         if (error) {
             return (
                 <div className="col">
@@ -55,6 +55,7 @@ class Review extends Component {
                 </div>
             );
         } else {
+
 
             return (
                 <div className="Review">
