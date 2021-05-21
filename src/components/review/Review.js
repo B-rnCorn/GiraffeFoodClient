@@ -60,8 +60,8 @@ class Review extends Component {
             return (
                 <div className="Review">
                     <section className="story-area bg-seller color-white pos-relative">
-                        <div className="pos-bottom triangle-up"></div>
-                        <div className="pos-top triangle-bottom"></div>
+                        <div className="pos-bottom triangle-up"/>
+                        <div className="pos-top triangle-bottom"/>
                         <div className="container">
                             <div className="heading">
                                 <h2>Отзывы клиентов</h2>
